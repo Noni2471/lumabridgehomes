@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lumabridge Homes Limited</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- =========================
+       HEADER
+  ========================== -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+
+      <a href="index.html" class="brand" aria-label="Lumabridge Homes Limited">
+        <!-- Replace with your exact logo -->
+        <img src="logo.jpeg" alt="Lumabridge Homes Limited Logo" />
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Toggle menu" aria-controls="mobileNavPanel" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html" class="active">HOME</a>
+        <a href="index(1).html">ABOUT US</a>
+        <a href="index(4).html">PROPERTIES</a>
+        <a href="index(2).html">SERVICES</a>
+        <a href="index(3).html">CONTACT US</a>
+      </nav>
+
+      <div class="header-call">
+        <div class="call-icon">◔</div>
+        <div class="call-text">
+          <span>Call Us Now</span>
+          <strong>+234 9112333151</strong>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="mobile-nav-panel" id="mobileNavPanel">
+      <a href="index.html" class="active">Home</a>
+      <a href="index(1).html">About Us</a>
+      <a href="index(4).html">Properties</a>
+      <a href="index(2).html">Services</a>
+      <a href="index(3).html">Contact Us</a>
+    </div>
+  </header>
+
+  <!-- =========================
+       HERO
+  ========================== -->
+  <section class="hero">
+    <div class="container hero-inner">
+
+      <!-- LEFT CONTENT -->
+      <div class="hero-copy">
+        <div class="eyebrow">BRIDGING YOU TO</div>
+
+        <h1 class="hero-title">
+          <span class="blue">BRIGHTER</span>
+          <span class="orange">LIVING</span>
+        </h1>
+
+        <p class="hero-desc">
+          Premium real estate opportunities in Abuja designed for comfort,
+          growth and lasting value.
+        </p>
+
+        <div class="hero-actions">
+          <a href="index(4).html" class="btn btn-primary" id="viewPropertiesBtn">
+            VIEW PROPERTIES <span class="arrow">→</span>
+          </a>
+
+          <a href="index(5).html" class="btn btn-outline">
+            BOOK INSPECTION
+          </a>
+        </div>
+
+        <div class="trust-row">
+          <div class="trust-item">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 3l7 3v5c0 5-3.5 8.5-7 10-3.5-1.5-7-5-7-10V6l7-3z"/>
+              <path d="M9.5 12.2l1.7 1.7 3.3-3.6"/>
+            </svg>
+            <span>Trusted &amp; Reliable</span>
+          </div>
+
+          <div class="trust-item">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 21s-6-5.3-6-10a6 6 0 1112 0c0 4.7-6 10-6 10z"/>
+              <circle cx="12" cy="11" r="2.2"/>
+            </svg>
+            <span>Premium Locations</span>
+          </div>
+
+          <div class="trust-item">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="5" y="10" width="14" height="10" rx="2"/>
+              <path d="M8 10V8a4 4 0 118 0v2"/>
+              <circle cx="12" cy="15" r="1"/>
+            </svg>
+            <span>Secure Investment</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT VISUAL -->
+      <div class="hero-visual">
+        <div class="image-shell">
+          <!-- Replace with your exact property image -->
+          <img src="house.jpg" alt="Luxury Lumabridge Property" />
+        </div>
+
+        <div class="story-card">
+          <div class="play-btn" aria-hidden="true"></div>
+          <div class="story-content">
+            <h3>Watch Our Story</h3>
+            <p>Discover who we are and what drives us.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="featured-properties">
+  <div class="container">
+    <div class="featured-header">
+      <div class="featured-title-wrap">
+        <h2 class="section-title">
+          FEATURED <span>PROPERTIES</span>
+        </h2>
+        <p class="section-subtitle">
+          Carefully selected properties in prime locations across Abuja.
+        </p>
+      </div>
+
+      <a href="index(4).html" class="view-all-link">
+        VIEW ALL PROPERTIES
+        <span class="arrow">→</span>
+      </a>
+    </div>
+
+    <div class="properties-grid">
+      <!-- CARD 1 -->
+      <div class="property-card">
+        <div class="property-image-wrap">
+          <span class="property-badge sale">FOR SALE</span>
+          <img src="pro.jpeg" alt="LumaBridge Estate, kuje">
+        </div>
+
+        <div class="property-content">
+          <h3 class="property-title">LumaBridge Prime Estate, Kuje</h3>
+
+          <div class="property-location">
+            <span class="location-icon">📍</span>
+            <span>Behind SS Simon & Jude Seminary School, Kuje, Abuja</span>
+          </div>
+
+          <div class="property-features">
+            <div class="feature-item">
+              <span class="feature-icon">🛏</span>
+              <span>180SQM</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon">🛁</span>
+              <span>250SQM</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon">📐</span>
+              <span>350SQM</span>
+            </div>
+          </div>
+
+          <div class="property-price">From ₦2.7m</div>
+
+          <div class="property-details" aria-hidden="true">
+            <div class="detail-item">
+              <span class="detail-label">Plot Size:</span>
+                       <span class="detail-value">500SQM</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Estate Facilities:</span>
+              <span class="detail-value">24/7 security, clubhouse, paved roads, gated access</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Title Document:</span>
+              <span class="detail-value">FCDA R of O</span>
+            </div>
+          </div>
+
+          <a href="index(4).html" class="property-btn">VIEW DETAILS</a>
+        </div>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="property-card">
+        <div class="property-image-wrap">
+          <span class="property-badge sale">FOR SALE</span>
+          <img src="pro1.jpeg" alt="Elite City, Ketti pyakasa">
+        </div>
+
+        <div class="property-content">
+          <h3 class="property-title">Elite City, Ketti pyakasa</h3>
+
+          <div class="property-location">
+            <span class="location-icon">📍</span>
+            <span>Behind City Walk, Ketti North, Abuja</span>
+          </div>
+
+          <div class="property-features">
+            <div class="feature-item">
+              <span class="feature-icon">🛏</span>
+              <span>180SQM</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon">🛁</span>
+              <span>200SQM</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon">📐</span>
+              <span>350SQM</span>
+            </div>
+          </div>
+
+          <div class="property-price">From ₦4.3m</div>
+
+          <div class="property-details" aria-hidden="true">
+            <div class="detail-item">
+              <span class="detail-label">Plot Size:</span>
+              <span class="detail-value">500SQM</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Estate Facilities:</span>
+              <span class="detail-value">Swimming pool, kids play area, landscaped gardens</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Title Document:</span>
+              <span class="detail-value">FCDA C of O</span>
+            </div>
+          </div>
+
+          <a href="index(4).html" class="property-btn">VIEW DETAILS</a>
+        </div>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="property-card">
+        <div class="property-image-wrap">
+          <span class="property-badge sale">FOR SALE</span>
+          <img src="pro2.jpeg" alt="Conquorors Residence,Idu">
+        </div>
+
+        <div class="property-content">
+          <h3 class="property-title">Conquorors Residence, Idu</h3>
+
+          <div class="property-location">
+            <span class="location-icon">📍</span>
+            <span>Behind Technocrats Court, Idu, Abuja</span>
+          </div>
+
+          <div class="property-features">
+            <div class="feature-item">
+              <span class="feature-icon">🛏</span>
+              <span>180SQM</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon">🛁</span>
+              <span>250</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon">📐</span>
+              <span>350SQM</span>
+            </div>
+          </div>
+
+          <div class="property-price">From ₦8m</div>
+
+          <div class="property-details" aria-hidden="true">
+            <div class="detail-item">
+              <span class="detail-label">Plot Size:</span>
+              <span class="detail-value">500SQM</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Estate Facilities:</span>
+              <span class="detail-value">Gym, community hall, power backup, perimeter fencing</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Title Document:</span>
+              <span class="detail-value">FCDA R of O</span>
+            </div>
+          </div>
+
+          <a href="index(4).html" class="property-btn">VIEW DETAILS</a>
+        </div>
+      </div>
+
+      <!-- CARD 4 -->
+      <div class="property-card">
+        <div class="property-image-wrap">
+          <span class="property-badge rent">FOR SALE</span>
+          <img src="pro3.jpeg" alt="Silver Brook Estate, Maitama">
+        </div>
+
+        <div class="property-content">
+          <h3 class="property-title">Silver Brook Estate, Maitama</h3>
+
+          <div class="property-location">
+            <span class="location-icon">📍</span>
+            <span>Behind Niger Barack, Maitama, Abuja</span>
+          </div>
+
+          <div class="property-features">
+            <div class="feature-item">
+              <span class="feature-icon">🛏</span>
+              <span>250SQM</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon">🛁</span>
+              <span>350SQM</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon">📐</span>
+              <span>500SQM</span>
+            </div>
+          </div>
+
+          <div class="property-price">From ₦5m</div>
+
+          <div class="property-details" aria-hidden="true">
+            <div class="detail-item">
+              <span class="detail-label">Plot Size:</span>
+              <span class="detail-value">500SQM</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Estate Facilities:</span>
+              <span class="detail-value">Landscaped gardens, dedicated parking, concierge service</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Title Document:</span>
+              <span class="detail-value">FCDA C of O</span>
+            </div>
+          </div>
+
+          <a href="index(4).html" class="property-btn">VIEW DETAILS</a>
+        </div>
+      </div>
+      <!-- EXTRA CARDS (initially hidden) -->
+      <div class="property-card extra">
+        <div class="property-image-wrap">
+          <span class="property-badge sale">FOR SALE</span>
+          <img src="guzape.jpeg" alt="City View Estate">
+        </div>
+
+        <div class="property-content">
+          <h3 class="property-title">CITY VIEW RESIDENCE GUZAPE 2</h3>
+
+          <div class="property-location">
+            <span class="location-icon">📍</span>
+            <span>Guzape 2, Abuja</span>
+          </div>
+
+          <div class="property-features">
+            <div class="feature-item">
+              <span class="feature-icon">🛏</span>
+              <span>250SQM</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon">🛁</span>
+              <span>500SQM</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon">📐</span>
+              <span>250SQM</span>
+            </div>
+          </div>
+
+          <div class="property-price">From ₦11m</div>
+
+          <div class="property-details" aria-hidden="true">
+            <div class="detail-item">
+              <span class="detail-label">Plot Size:</span>
+              <span class="detail-value">500SQM</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Estate Facilities:</span>
+              <span class="detail-value">Gated community, borehole water, streetlights</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Title Document:</span>
+              <span class="detail-value">C of O</span>
+            </div>
+          </div>
+
+          <a href="index(4).html" class="property-btn">VIEW DETAILS</a>
+        </div>
+      </div>
+
+      <div class="property-card extra">
+        <div class="property-image-wrap">
+          <span class="property-badge sale">FOR SALE</span>
+          <img src="asokoro.jpeg" alt="Unicorn Garden">
+        </div>
+
+        <div class="property-content">
+          <h3 class="property-title">UNICORN GARDEN ESTATE ASOKORO</h3>
+
+          <div class="property-location">
+            <span class="location-icon">📍</span>
+            <span>Sharing fence with NAF Valley Estate, Asokoro, Abuja</span>
+          </div>
+
+          <div class="property-features">
+            <div class="feature-item">
+              <span class="feature-icon">🛏</span>
+              <span>150SQM</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon">🛁</span>
+              <span>250SQM</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon">📐</span>
+              <span>400SQM</span>
+            </div>
+          </div>
+
+          <div class="property-price">From ₦45m</div>
+
+          <div class="property-details" aria-hidden="true">
+            <div class="detail-item">
+              <span class="detail-label">Plot Size:</span>
+              <span class="detail-value">400 SQM</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Estate Facilities:</span>
+              <span class="detail-value">Private security, jogging track, clubhouse</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Title Document:</span>
+              <span class="detail-value">FCDA R of O</span>
+            </div>
+          </div>
+
+          <a href="index(4).html" class="property-btn">VIEW DETAILS</a>
+        </div>
+      </div>
+
+      <div class="property-card extra">
+        <div class="property-image-wrap">
+          <span class="property-badge sale">FOR SALE</span>
+          <img src="apo.jpeg" alt="Mega City Estate">
+        </div>
+
+        <div class="property-content">
+          <h3 class="property-title">MEGA CITY ESTATE, APO HILTOP</h3>
+
+          <div class="property-location">
+            <span class="location-icon">📍</span>
+            <span>Apo Hiltop, Abuja</span>
+          </div>
+
+          <div class="property-features">
+            <div class="feature-item">
+              <span class="feature-icon">🛏</span>
+              <span>250 SQM</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon">🛁</span>
+              <span>350 SQM</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon">📐</span>
+              <span>500 SQM</span>
+            </div>
+          </div>
+
+          <div class="property-price">From ₦20M</div>
+
+          <div class="property-details" aria-hidden="true">
+            <div class="detail-item">
+              <span class="detail-label">Plot Size:</span>
+              <span class="detail-value">600 SQM</span>
+              <span class="detail-value">1000 SQM</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Estate Facilities:</span>
+              <span class="detail-value">24/7 security, streetlights</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Title Document:</span>
+              <span class="detail-value">FCDA R of O</span>
+            </div>
+          </div>
+
+          <a href="index(4).html" class="property-btn">VIEW DETAILS</a>
+        </div>
+      </div>
+
+      <div class="property-card extra">
+        <div class="property-image-wrap">
+          <span class="property-badge sale">FOR SALE</span>
+          <img src="diplomatic.jpeg" alt="serenity Hills Estate">
+        </div>
+
+        <div class="property-content">
+          <h3 class="property-title">SERENITY HILLS ESTATE, KATAMPE EXTENSION(MAIN)</h3>
+
+          <div class="property-location">
+            <span class="location-icon">📍</span>
+            <span>Katampe Extension(Main) Diplomatic Zone, Abuja</span>
+          </div>
+
+          <div class="property-features">
+            <div class="feature-item">
+              <span class="feature-icon">🛏</span>
+              <span>250SQM</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon">🛁</span>
+              <span>350 SQM</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon">📐</span>
+              <span>500 SQM</span>
+            </div>
+          </div>
+
+          <div class="property-price">From ₦50m</div>
+
+          <div class="property-details" aria-hidden="true">
+            <div class="detail-item">
+              <span class="detail-label">Plot Size:</span>
+              <span class="detail-value">500 SQM</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Estate Facilities:</span>
+              <span class="detail-value">Power backup, perimeter fencing, private pool</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Title Document:</span>
+              <span class="detail-value">FCDA R of O</span>
+            </div>
+          </div>
+
+          <a href="index(4).html" class="property-btn">VIEW DETAILS</a>
+        </div>
+      </div>
+      <div class="property-card extra">
+        <div class="property-image-wrap">
+          <span class="property-badge sale">FOR SALE</span>
+          <img src="maitama2.jpeg" alt="Maple Ridge">
+        </div>
+
+        <div class="property-content">
+          <h3 class="property-title">Maple Ridge</h3>
+
+          <div class="property-location">
+            <span class="location-icon">📍</span>
+            <span>Behind Niger Barack, Maitama, Abuja</span>
+          </div>
+
+          <div class="property-features">
+            <div class="feature-item">
+              <span class="feature-icon">🛏</span>
+              <span>450SQM</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon">🛁</span>
+              <span>4 Bedroom Fully Detached Duplex</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon">📐</span>
+              <span>450 SQM</span>
+            </div>
+          </div>
+
+          <div class="property-price">From ₦45m</div>
+
+          <div class="property-details" aria-hidden="true">
+            <div class="detail-item">
+              <span class="detail-label">Plot Size:</span>
+              <span class="detail-value">450SQM</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Estate Facilities:</span>
+              <span class="detail-value">Gated access, streetlights, children's park</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Title Document:</span>
+              <span class="detail-value">C of O</span>
+            </div>
+          </div>
+
+          <a href="index(4).html" class="property-btn">VIEW DETAILS</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="invest-section">
+  <div class="invest-top">
+    <div class="container invest-top-grid">
+
+      <!-- Left Intro Box -->
+      <div class="invest-intro">
+        <h2>WHY INVEST<br>WITH US?</h2>
+        <p>We make real estate simple, secure and rewarding.</p>
+        <a href="index(1).html" class="invest-btn">
+          LEARN MORE ABOUT US
+          <span>→</span>
+        </a>
+      </div>
+
+      <!-- Feature 1 -->
+      <div class="invest-feature">
+        <div class="feature-icon">
+          <!-- Medal / Trusted Expertise -->
+          <svg viewBox="0 0 64 64" fill="none">
+            <path d="M32 7l6 4 7-1 1 7 6 4-4 6 1 7-7 1-4 6-6-4-7 1-1-7-6-4 4-6-1-7 7-1 4-6z" stroke="currentColor" stroke-width="2.5"/>
+            <circle cx="32" cy="25" r="8" stroke="currentColor" stroke-width="2.5"/>
+            <path d="M27 39l5 5 5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h3>Trusted Expertise</h3>
+        <p>Years of experience in real estate development and investment.</p>
+      </div>
+
+      <!-- Feature 2 -->
+      <div class="invest-feature">
+        <div class="feature-icon">
+          <!-- Location -->
+          <svg viewBox="0 0 64 64" fill="none">
+            <path d="M32 52s14-12.5 14-24a14 14 0 10-28 0c0 11.5 14 24 14 24z" stroke="currentColor" stroke-width="2.5"/>
+            <circle cx="32" cy="28" r="5" stroke="currentColor" stroke-width="2.5"/>
+            <path d="M16 56h32" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3>Prime Locations</h3>
+        <p>Strategic locations in Abuja with high growth potential.</p>
+      </div>
+
+      <!-- Feature 3 -->
+      <div class="invest-feature">
+        <div class="feature-icon">
+          <!-- Shield -->
+          <svg viewBox="0 0 64 64" fill="none">
+            <path d="M32 8l16 6v14c0 14-10 22-16 26-6-4-16-12-16-26V14l16-6z" stroke="currentColor" stroke-width="2.5"/>
+            <path d="M25 30l5 5 9-10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h3>Secure Investment</h3>
+        <p>Transparent processes and legal protection for your peace of mind.</p>
+      </div>
+
+      <!-- Feature 4 -->
+      <div class="invest-feature">
+        <div class="feature-icon">
+          <!-- Support -->
+          <svg viewBox="0 0 64 64" fill="none">
+            <circle cx="32" cy="20" r="10" stroke="currentColor" stroke-width="2.5"/>
+            <path d="M16 52c2-10 10-16 16-16s14 6 16 16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M12 30c0-8 4-14 10-18M52 30c0-8-4-14-10-18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3>End-to-End Support</h3>
+        <p>We guide you from property selection to ownership and beyond.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Bottom Stats -->
+  <div class="invest-stats">
+    <div class="container stats-grid">
+
+      <div class="stat-item">
+        <div class="stat-icon orange">
+          <!-- Building -->
+          <svg viewBox="0 0 64 64" fill="none">
+            <path d="M14 54V20l12-8v42M26 54V12l12-8v50M38 54V26l12-8v36M10 54h44" stroke="currentColor" stroke-width="2.5"/>
+            <path d="M20 24h.01M20 30h.01M20 36h.01M32 18h.01M32 24h.01M32 30h.01M32 36h.01M44 30h.01M44 36h.01" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="stat-content">
+          <h3>10+</h3>
+          <p>Properties Developed</p>
+        </div>
+      </div>
+
+      <div class="stat-item">
+        <div class="stat-icon orange">
+          <!-- People -->
+          <svg viewBox="0 0 64 64" fill="none">
+            <circle cx="24" cy="22" r="8" stroke="currentColor" stroke-width="2.5"/>
+            <circle cx="40" cy="22" r="8" stroke="currentColor" stroke-width="2.5"/>
+            <path d="M10 50c2-8 8-14 14-14s12 6 14 14" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M26 50c2-8 8-14 14-14s12 6 14 14" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="stat-content">
+          <h3>500+</h3>
+          <p>Happy Clients</p>
+        </div>
+      </div>
+
+      <div class="stat-item">
+        <div class="stat-icon orange">
+          <!-- Chart -->
+          <svg viewBox="0 0 64 64" fill="none">
+            <path d="M10 52h44" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M18 46V32M28 46V24M38 46V18M48 46V12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M16 24l12-8 10 2 12-10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="stat-content">
+          <h3>₦25B+</h3>
+          <p>Value of Properties Delivered</p>
+        </div>
+      </div>
+
+      <div class="stat-item">
+        <div class="stat-icon orange">
+          <!-- Pin -->
+          <svg viewBox="0 0 64 64" fill="none">
+            <path d="M32 52s14-12.5 14-24a14 14 0 10-28 0c0 11.5 14 24 14 24z" stroke="currentColor" stroke-width="2.5"/>
+            <circle cx="32" cy="28" r="5" stroke="currentColor" stroke-width="2.5"/>
+          </svg>
+        </div>
+        <div class="stat-content">
+          <h3>15+</h3>
+          <p>Prime Locations in Abuja</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="lumabridge-cta-footer">
+  <!-- TOP CTA AREA -->
+  <div class="cta-top-wrap">
+    <div class="container cta-grid">
+
+      <!-- LEFT CTA -->
+      <div class="cta-left">
+        <h2>
+          READY TO FIND YOUR
+          <span>PERFECT PROPERTY?</span>
+        </h2>
+        <p>
+          Book an inspection or speak with our property experts today.
+        </p>
+
+        <ul class="cta-benefits">
+          <li>
+            <span class="check-icon">✓</span>
+            Personalized Property Matching
+          </li>
+          <li>
+            <span class="check-icon">✓</span>
+            Free Property Inspection
+          </li>
+          <li>
+            <span class="check-icon">✓</span>
+            Expert Investment Advice
+          </li>
+        </ul>
+      </div>
+
+      <!-- CENTER FORM -->
+      <div class="cta-form-box">
+        <h3>BOOK <span>AN INSPECTION</span></h3>
+
+        <form class="inspection-form">
+          <div class="form-grid">
+            <div class="form-group">
+              <label>Full Name</label>
+              <input id="inspectionName" type="text" placeholder="Your full name">
+            </div>
+
+            <div class="form-group">
+              <label>Email Address</label>
+              <input id="inspectionEmail" type="email" placeholder="Your email address">
+            </div>
+
+            <div class="form-group">
+              <label>Phone Number</label>
+              <input id="inspectionPhone" type="tel" placeholder="Your phone number">
+            </div>
+
+            <div class="form-group">
+              <label>Preferred Location</label>
+              <select id="inspectionLocation">
+                <option>Select location</option>
+                <option>Kuje, Abuja</option>
+                <option>Maitama 2, Abuja</option>
+                <option>Asokoro, Abuja</option>
+                <option>Apo Tafi, Abuja</option>
+                <option>Idu, Abuja</option>
+                <option>Pyakasa, Abuja</option>
+                <option>Guzape 2, Abuja</option>
+                <option>Katampe Extension, Abuja</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label>Property Interest</label>
+              <select id="inspectionPropertyType">
+                <option>Select property type</option>
+                <option>Apartment</option>
+                <option>Duplex</option>
+                <option>Terrace</option>
+                <option>Semi Detached</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label>Preferred Date</label>
+              <input id="inspectionDate" type="date">
+            </div>
+          </div>
+
+          <button type="button" class="inspection-btn" onclick="openWhatsAppInspection()">
+            BOOK INSPECTION
+          </button>
+        </form>
+      </div>
+
+      <!-- RIGHT CONTACT -->
+      <div class="cta-right">
+        <div class="talk-title">
+          <span class="talk-icon">🎧</span>
+          <h4>LET'S TALK</h4>
+        </div>
+
+        <p class="talk-text">
+          Have questions?<br>
+          We’re here to help.
+        </p>
+
+        <ul class="contact-list">
+          <li>
+            <span class="contact-icon">📞</span>
+            <a href="tel:+2349112333151">+234 911 233 3151</a>
+          </li>
+          <li>
+            <span class="contact-icon">✉</span>
+            <a href="mailto:info@lumabridgehomes.com">info@lumabridgehomes.com</a>
+          </li>
+          <li>
+            <span class="contact-icon">📍</span>
+            <span>Suite 12, Hilltop Plaza,<br>Jabi, Abuja.</span>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- FOOTER MAIN -->
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <!-- Logo -->
+      <div class="footer-col footer-brand">
+        <a href="index.html" class="footer-logo">
+          <div class="center-logo-circle-sm">
+            <img src="logo.jpeg" alt="LumaBridge Homes Limited">
+          </div>
+        </a>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-col footer-links">
+        <h5>Quick Links</h5>
+        <div class="footer-links-grid">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index(1).html">About Us</a></li>
+          </ul>
+          <ul>
+            <li><a href="index(4).html">Properties</a></li>
+            <li><a href="index(2).html">Services</a></li>
+          </ul>
+          <ul>
+            <li><a href="index(3).html">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Social -->
+      <div class="footer-col footer-social">
+        <h5>Follow Us</h5>
+        <div class="social-links">
+          <a href="https://www.facebook.com/share/1Br2fuHreR/?mibextid=wwXIfr" aria-label="Facebook">f</a>
+          <a href="https://www.instagram.com/lumabridge_homes_ltd?igsh=c2JqeHV4NjdyOG9x&utm_source=qr" aria-label="Instagram">◎</a>
+          <a href="https://www.linkedin.com/in/lumabridgehomesltd-bringing-you-to-brighter-living-5264223a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" aria-label="LinkedIn">in</a>
+          <a href="https://twitter.com/lumabridgehomesltd" aria-label="Twitter">𝕏</a>
+          <a href="https://www.tiktok.com/@lumabridgehomesltd?_r=1&_t=ZS-98F03LconI4" aria-label="TikTok">t</a>
+        </div>
+      </div>
+
+      <!-- Contact / Office Address -->
+      <div class="footer-col footer-contact">
+        <h5>Contact Us</h5>
+        <ul class="contact-footer-list">
+          <li>
+            <span class="contact-icon">📍</span>
+            <span>Shop S8 Bints Centre by Haimbridge, Plot 876 Cadastral Zone C02 Gwarimpa 1, Abuja, Nigeria</span>
+          </li>
+          <li>
+            <span class="contact-icon">📞</span>
+            <a href="tel:+2349112333151">+234 911 233 3151</a>
+          </li>
+          <li>
+            <span class="contact-icon">✉</span>
+            <a href="mailto:info@lumabridgehomes.com">lumabridgehomesltd@gmail.com</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="footer-col footer-newsletter">
+        <h5>Subscribe to our Newsletter</h5>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email address">
+          <button type="submit">➤</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Bottom bar -->
+    <div class="container footer-bottom">
+      <p>© 2026 LumaBridge Homes Limited. All Rights Reserved.</p>
+      <span>...Bridging You To Brighter Living</span>
+    </div>
+  </footer>
+</section>
+  <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const mobileNavPanel = document.getElementById('mobileNavPanel');
+
+    function openWhatsAppInspection() {
+      const fullName = document.getElementById('inspectionName')?.value?.trim() || 'Not provided';
+      const email = document.getElementById('inspectionEmail')?.value?.trim() || 'Not provided';
+      const phone = document.getElementById('inspectionPhone')?.value?.trim() || 'Not provided';
+      const location = document.getElementById('inspectionLocation')?.value || 'Not provided';
+      const propertyType = document.getElementById('inspectionPropertyType')?.value || 'Not provided';
+      const preferredDate = document.getElementById('inspectionDate')?.value || 'Not provided';
+
+      const message = [
+        'Hello Lumabridge Homes, I would like to book an inspection.',
+        `Full Name: ${fullName}`,
+        `Email: ${email}`,
+        `Phone: ${phone}`,
+        `Preferred Location: ${location}`,
+        `Property Interest: ${propertyType}`,
+        `Preferred Date: ${preferredDate}`
+      ].join('\n');
+
+      const whatsappUrl = `https://wa.me/2349112333151?text=${encodeURIComponent(message)}`;
+      window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
+    }
+
+    if (menuToggle && mobileNavPanel) {
+      menuToggle.addEventListener('click', () => {
+        const isOpen = menuToggle.classList.toggle('active');
+        mobileNavPanel.classList.toggle('open', isOpen);
+        menuToggle.setAttribute('aria-expanded', String(isOpen));
+      });
+
+      mobileNavPanel.querySelectorAll('a').forEach((link) => {
+        link.addEventListener('click', () => {
+          mobileNavPanel.classList.remove('open');
+          menuToggle.classList.remove('active');
+          menuToggle.setAttribute('aria-expanded', 'false');
+        });
+      });
+    }
+  </script>
+</body>
+</html>

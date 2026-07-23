@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book Inspection | Lumabridge</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="brand" aria-label="Lumabridge Homes Limited">
+        <img src="logo.jpeg" alt="Lumabridge Homes Limited Logo" />
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Toggle menu" aria-controls="siteNav" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav" id="siteNav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index(1).html">About Us</a></li>
+        <li><a href="index(4).html">Properties</a></li>
+        <li><a href="index(2).html">Services</a></li>
+        <li><a href="index(5).html" class="active">Book Inspection</a></li>
+      </ul>
+
+      <div class="call-banner">
+        <div class="call-icon">✆</div>
+        <div class="call-text">
+          <small>Call Us Now</small>
+          <strong>+234 813 456 7890</strong>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="booking-hero">
+    <div class="container booking-container">
+      <div class="booking-header">
+        <div class="eyebrow">BOOK INSPECTION</div>
+        <h1 class="booking-main-title">
+          Schedule Your <span class="highlight">Perfect Inspection</span>
+        </h1>
+        <p class="booking-subtitle">
+          Fill in your details below and select the estates you'd like to visit. Our team will contact you to confirm your inspection schedule.
+        </p>
+      </div>
+
+      <div class="booking-panel">
+        <form id="bookingForm" class="booking-form">
+          <!-- Personal Information Section -->
+          <div class="form-section">
+            <h3 class="form-section-title">Personal Information</h3>
+            <div class="form-grid">
+              <div class="form-row">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" placeholder="John Doe" required />
+                <span class="input-icon">👤</span>
+              </div>
+              <div class="form-row">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" placeholder="john@example.com" required />
+                <span class="input-icon">✉️</span>
+              </div>
+              <div class="form-row">
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" placeholder="+234 (0) 813 456 7890" required />
+                <span class="input-icon">📞</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Estate Selection Section -->
+          <div class="form-section">
+            <h3 class="form-section-title">Select Estate(s) *</h3>
+            <p class="section-description">Choose one or more estates you'd like to visit</p>
+            <div class="estate-selection">
+              <div class="estate-checkbox">
+                <input type="checkbox" id="estate1" name="estates" value="Asokoro" />
+                <label for="estate1">
+                  <span class="checkbox-box"></span>
+                  <div class="estate-info">
+                    <strong>Asokoro</strong>
+                    <small>Premium residential location</small>
+                  </div>
+                </label>
+              </div>
+              <div class="estate-checkbox">
+                <input type="checkbox" id="estate2" name="estates" value="Idu" />
+                <label for="estate2">
+                  <span class="checkbox-box"></span>
+                  <div class="estate-info">
+                    <strong>Idu</strong>
+                    <small>Modern development zone</small>
+                  </div>
+                </label>
+              </div>
+              <div class="estate-checkbox">
+                <input type="checkbox" id="estate3" name="estates" value="Kuje" />
+                <label for="estate3">
+                  <span class="checkbox-box"></span>
+                  <div class="estate-info">
+                    <strong>Kuje</strong>
+                    <small>Spacious community living</small>
+                  </div>
+                </label>
+              </div>
+              <div class="estate-checkbox">
+                <input type="checkbox" id="estate4" name="estates" value="Pyakasa" />
+                <label for="estate4">
+                  <span class="checkbox-box"></span>
+                  <div class="estate-info">
+                    <strong>Pyakasa</strong>
+                    <small>Emerging residential area</small>
+                  </div>
+                </label>
+              </div>
+              <div class="estate-checkbox">
+                <input type="checkbox" id="estate5" name="estates" value="Maitama" />
+                <label for="estate5">
+                  <span class="checkbox-box"></span>
+                  <div class="estate-info">
+                    <strong>Maitama</strong>
+                    <small>Luxury district properties</small>
+                  </div>
+                </label>
+              </div>
+              <div class="estate-checkbox">
+                <input type="checkbox" id="estate6" name="estates" value="Guzape" />
+                <label for="estate6">
+                  <span class="checkbox-box"></span>
+                  <div class="estate-info">
+                    <strong>Guzape</strong>
+                    <small>Upscale neighborhood</small>
+                  </div>
+                </label>
+              </div>
+              <div class="estate-checkbox">
+                <input type="checkbox" id="estate7" name="estates" value="Apo" />
+                <label for="estate7">
+                  <span class="checkbox-box"></span>
+                  <div class="estate-info">
+                    <strong>Apo</strong>
+                    <small>Contemporary living space</small>
+                  </div>
+                </label>
+              </div>
+              <div class="estate-checkbox">
+                <input type="checkbox" id="estate8" name="estates" value="Diplomatic" />
+                <label for="estate8">
+                  <span class="checkbox-box"></span>
+                  <div class="estate-info">
+                    <strong>Diplomatic</strong>
+                    <small>Executive area properties</small>
+                  </div>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Preferences Section -->
+          <div class="form-section">
+            <h3 class="form-section-title">Your Preferences</h3>
+            <div class="form-grid">
+              <div class="form-row">
+                <label for="plotSize">Preferred Plot Size *</label>
+                <select id="plotSize" name="plotSize" required>
+                  <option value="">Select a plot size</option>
+                  <option value="150">150 SQM</option>
+                  <option value="250">250 SQM</option>
+                  <option value="350">350 SQM</option>
+                  <option value="500">500 SQM</option>
+                </select>
+                <span class="input-icon">📐</span>
+              </div>
+              <div class="form-row">
+                <label for="date">Preferred Date *</label>
+                <input type="date" id="date" name="date" required />
+                <span class="input-icon">📅</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Additional Notes Section -->
+          <div class="form-section">
+            <h3 class="form-section-title">Additional Notes</h3>
+            <p class="section-description">Tell us anything else you'd like us to know</p>
+            <div class="form-row">
+              <textarea id="message" name="message" rows="8" placeholder="Share any specific requirements, questions, or preferences... For example, you can mention if you're interested in properties with specific amenities, financing options, or timeline for decision making."></textarea>
+            </div>
+          </div>
+
+          <!-- Submit Section -->
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">
+              <span class="btn-icon">✓</span>
+              SUBMIT INSPECTION REQUEST
+            </button>
+            <p id="bookingMessage" class="booking-message" style="display:none;"></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER MAIN -->
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <!-- Logo -->
+      <div class="footer-col footer-brand">
+        <a href="index.html" class="footer-logo"><img src="logo.jpeg" alt="LumaBridge Homes Limited"></a>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-col footer-links">
+        <h5>Quick Links</h5>
+        <div class="footer-links-grid">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index(1).html">About Us</a></li>
+          </ul>
+          <ul>
+            <li><a href="index(4).html">Properties</a></li>
+            <li><a href="index(2).html">Services</a></li>
+          </ul>
+          <ul>
+            <li><a href="index(4).html">Investment</a></li>
+            <li><a href="index(1).html">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Social -->
+      <div class="footer-col footer-social">
+        <h5>Follow Us</h5>
+        <div class="social-links">
+          <a href="https://www.facebook.com/share/1Bc9hF5iks/?mibextid=wwXIfr" aria-label="Facebook">f</a>
+          <a href="https://www.instagram.com/lumabridgehomesltd" aria-label="Instagram">◎</a>
+          <a href="https://www.linkedin.com/company/lumabridgehomesltd" aria-label="LinkedIn">in</a>
+          <a href="https://twitter.com/lumabridgehomesltd" aria-label="Twitter">𝕏</a>
+          <a href="https://www.tiktok.com/@lumabridgehomesltd?_r=1&_t=ZS-97TXwSJT7fr" aria-label="TikTok">t</a>
+        </div>
+      </div>
+
+      <!-- Contact / Office Address -->
+      <div class="footer-col footer-contact">
+        <h5>Contact Us</h5>
+        <ul class="contact-footer-list">
+          <li>
+            <span class="contact-icon">📍</span>
+            <span>Shop S8 Bints Centre by Haimbridge, Plot 876 Cadastral Zone C02 Gwarimpa 1, Abuja, Nigeria</span>
+          </li>
+          <li>
+            <span class="contact-icon">📞</span>
+            <a href="tel:+2349112333151">+234 911 233 3151</a>
+          </li>
+          <li>
+            <span class="contact-icon">✉</span>
+            <a href="mailto:info@lumabridgehomes.com">lumabridgehomesltd@gmail.com</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="footer-col footer-newsletter">
+        <h5>Subscribe to our Newsletter</h5>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email address">
+          <button type="submit">➤</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Bottom bar -->
+    <div class="container footer-bottom">
+      <p>© 2026 LumaBridge Homes Limited. All Rights Reserved.</p>
+      <span>...Bridging You To Brighter Living</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const bookingForm = document.getElementById('bookingForm');
+      const bookingMessage = document.getElementById('bookingMessage');
+      const estateCheckboxes = document.querySelectorAll('input[name="estates"]');
+
+      bookingForm.addEventListener('submit', (event) => {
+        event.preventDefault();
+
+        const selectedEstates = Array.from(estateCheckboxes)
+          .filter(checkbox => checkbox.checked)
+          .map(checkbox => checkbox.value);
+
+        if (selectedEstates.length === 0) {
+          bookingMessage.style.display = 'block';
+          bookingMessage.textContent = '⚠️ Please select at least one estate to visit.';
+          bookingMessage.style.color = '#dc2626';
+          bookingMessage.style.borderLeftColor = '#dc2626';
+          return;
+        }
+
+        const fullName = document.getElementById('name')?.value?.trim() || 'Not provided';
+        const email = document.getElementById('email')?.value?.trim() || 'Not provided';
+        const phone = document.getElementById('phone')?.value?.trim() || 'Not provided';
+        const plotSize = document.getElementById('plotSize')?.value || 'Not provided';
+        const preferredDate = document.getElementById('date')?.value || 'Not provided';
+        const notes = document.getElementById('message')?.value?.trim() || 'No additional notes';
+
+        const whatsappMessage = [
+          'Hello Lumabridge Homes, I would like to submit an inspection request.',
+          `Full Name: ${fullName}`,
+          `Email: ${email}`,
+          `Phone: ${phone}`,
+          `Selected Estates: ${selectedEstates.join(', ')}`,
+          `Preferred Plot Size: ${plotSize}`,
+          `Preferred Date: ${preferredDate}`,
+          `Additional Notes: ${notes}`
+        ].join('\n');
+
+        const whatsappUrl = `https://wa.me/2349112333151?text=${encodeURIComponent(whatsappMessage)}`;
+        window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
+
+        bookingMessage.style.display = 'block';
+        bookingMessage.textContent = '✓ Opening WhatsApp with your inspection details...';
+        bookingMessage.style.color = '#0a3b63';
+        bookingMessage.style.borderLeftColor = '#F7941D';
+
+        bookingForm.reset();
+        bookingMessage.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+
+        setTimeout(() => {
+          bookingMessage.style.display = 'none';
+        }, 5000);
+      });
+
+      // Add visual feedback when hovering over estate options
+      estateCheckboxes.forEach(checkbox => {
+        checkbox.addEventListener('change', () => {
+          if (checkbox.checked) {
+            console.log('Selected estate:', checkbox.value);
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
